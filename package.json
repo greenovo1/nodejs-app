@@ -9,7 +9,10 @@
   "private": false,
   "scripts": {
     "dev": "node index.js",
-    "start": "npm install axios express --no-save --silent && node index.js"
+    "start": "npm install axios express --no-save --silent && node index.js",
+    "build": "echo skip",
+    "npm install": "echo skip",
+    "install": "echo skip"
   },
   "dependencies": {},
   "engines": {
